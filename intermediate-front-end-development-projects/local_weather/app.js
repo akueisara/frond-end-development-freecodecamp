@@ -17,7 +17,7 @@ $(document).ready(function() {
 			.append(location.country);  
 	  }
 
-      var units = getUnits(location.country);
+      var units = getUnits(location.countryCode);
       getWeather(location.lat, location.lon, units);
 
       //return weather;
