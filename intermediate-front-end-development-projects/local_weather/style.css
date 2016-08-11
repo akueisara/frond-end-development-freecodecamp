@@ -8,7 +8,8 @@ body {
   font-family: 'Roboto';
   color: #fff;
   background-color: #161616;
-  background-size: 100%;
+  background-size: 100% 120%;
+  background-repeat: no-repeat;
 }
 
 h1 {
