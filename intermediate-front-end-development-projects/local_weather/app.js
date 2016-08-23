@@ -28,7 +28,7 @@ $(document).ready(function() {
   
 
   function getWeather(lat, lon, units) {
-    var weatherApiUrl = 'http://api.openweathermap.org/data/2.5/weather?lat=' + lat + '&lon=' + lon + "&units=" + units + '&APPID=c14bb7903cdb1158fa694cde1aca3454';
+    var weatherApiUrl = 'http://api.openweathermap.org/data/2.5/weather?lat=' + lat + '&lon=' + lon + "&units=" + units + '&APPID=';
 
     console.log(weatherApiUrl);
 
