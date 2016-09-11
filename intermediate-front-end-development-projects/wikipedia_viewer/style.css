@@ -24,20 +24,20 @@ a:hover {
     padding-bottom: 20px;
 }
 
-.well a,
-.well p {
+.resultlink a,
+.resultlink p {
     color: black;
 }
 
-.well a:link {
+.resultlink a:link {
     text-decoration: none;
 }
 
-.well a:visited {
+.resultlink a:visited {
     text-decoration: none;
 }
 
-.well:hover {
+.resultlink:hover {
     border-left: thick solid #ff0000;
 }
 
