@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html ng-app>
+
+<head>
+    <title>Wikipedia Viewer</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="searchbar">
+    	<h1>Wikipeida Viewer</h1>
+        <a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank">Click here for a random article</a>
+        <form>
+            <input id="searchTerm" type="text">
+            <button id="submit">Search</button>
+        </form>
+        <!-- <p>Click icon to search</p> -->
+    </div>
+    <div id="output">
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

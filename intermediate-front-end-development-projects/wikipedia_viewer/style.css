@@ -1,0 +1,47 @@
+body {
+    background-color: #092B40;
+}
+
+h1 {
+    color: green;
+}
+
+a,
+p {
+    color: white;
+}
+
+a:hover {
+    color: pink;
+}
+
+.searchbar {
+    text-align: center;
+}
+
+.searchbar form {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.well a,
+.well p {
+    color: black;
+}
+
+.well a:link {
+    text-decoration: none;
+}
+
+.well a:visited {
+    text-decoration: none;
+}
+
+.well:hover {
+    border-left: thick solid #ff0000;
+}
+
+.result {
+    text-align: center;
+    color: white;
+}
