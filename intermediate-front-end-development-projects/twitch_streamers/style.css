@@ -1,0 +1,26 @@
+body{
+  background-image:url("https://images.unsplash.com/photo-1427501482951-3da9b725be23?crop=entropy&fit=crop&fm=jpg&h=1000&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1925");
+  color:white;
+  font-family:'Lobster';
+  background-size:cover;
+}
+#header{
+background:rgba(0, 0, 0, 0.75);
+  border: 5px white solid;
+  border-radius:25px;
+}
+img{
+  width:100px;
+  height:100px;
+  border-radius:50%;
+}
+.col-md-4{
+  padding:10px; 
+}
+
+.row{
+  background: rgba(0,0,0,.45);
+  border: 5px white solid;
+  border-radius:25px;
+  margin-bottom:10px;
+}
