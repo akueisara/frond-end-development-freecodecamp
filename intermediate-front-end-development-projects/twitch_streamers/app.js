@@ -4,7 +4,7 @@ $(document).ready(function() {
     // $.ajax({
     //     url: freecodecamp_url,
     //     headers: {
-    //         'Client-ID': 'rvo1n920rqgdmjexx0wolgdfc9n2x39'
+    //         'Client-ID': 'please user your own id'
     //     },
     //     dataType: 'json',
     //     success: function(data) {
@@ -22,7 +22,7 @@ $(document).ready(function() {
     $.ajax({
         url: followerURL,
         headers: {
-            'Client-ID': 'rvo1n920rqgdmjexx0wolgdfc9n2x39'
+            'Client-ID': 'please user your own id'
         },
         dataType: 'json',
         success: function(data) {
@@ -38,7 +38,7 @@ $(document).ready(function() {
                 $.ajax({
                     url: onlineURL,
                     headers: {
-                        'Client-ID': 'rvo1n920rqgdmjexx0wolgdfc9n2x39'
+                        'Client-ID': 'please user your own id'
                     },
                     dataType: 'json',
                     success: function(data) {
@@ -60,7 +60,7 @@ $(document).ready(function() {
                 $.ajax({
                     url: url,
                     headers: {
-                        'Client-ID': 'rvo1n920rqgdmjexx0wolgdfc9n2x39'
+                        'Client-ID': 'please user your own id'
                     },
                     dataType: 'json',
                     success: function(stream_data) {
